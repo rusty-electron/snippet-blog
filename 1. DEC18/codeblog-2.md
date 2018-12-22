@@ -28,20 +28,20 @@ vim -O matrix.py matrix.c
 * switch between windows: Press `Ctrl + W`
 * execute command in terminal without minimizing `vim`:
 
-```shell
-In command window, type:
+```bash
+# In command window, type:
 :<command here>
 
-e.g.
+# e.g.
 : python main.py
 ```
 * execute command in terminal by minimizing `vim`:
 
-```shell
-In command window, type:
+```bash
+# In command window, type:
 :!<command here>
 
-e.g.
+# e.g.
 :!python main.py
 
 Press ENTER to return back to vim
@@ -67,10 +67,10 @@ In order to execute the file without the preceding `"python"`, we need to add th
 
 Now, try running it as:
 
-```
+```bash
 ./<file.py> <args>
 
-We get the error:
+# We get the error:
 
 bash: ./matrix.py: Permission denied
 ```
@@ -81,7 +81,7 @@ This is because we don't have the required permissions to execute the script.
 ```bash
 ls -al matrix*
 
-Search for the executable `x` in the ruleset
+# Search for the executable `x` in the ruleset
 ls -al matrix* | grep x
 ```
 
