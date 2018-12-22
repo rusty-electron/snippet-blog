@@ -24,7 +24,7 @@ line
 ```
 
 To prevent this, before pasting code switch to *command mode* and
-* type `:set past`. Note that the text in the tooltip now says `-- INSERT (paste) --`. 
+* type `:set paste`. Note that the text in the tooltip now says `-- INSERT (paste) --`. 
 * paste your code
 * type `:set nopaste` and return to normal mode.
 
